@@ -14,11 +14,6 @@
         "when": "editorFocus"
     },
     {
-        "key": "ctrl+shift+d",
-        "command": "-editor.action.copyLinesDownAction",
-        "when": "editorFocus"
-    }, 
-    {
       "key": "ctrl+`",
       "command": "workbench.action.terminal.focus"
     },
@@ -26,6 +21,21 @@
       "key": "ctrl+`",
       "command": "workbench.action.focusActiveEditorGroup",
       "when": "terminalFocus"
+    },
+    {
+      "key": "shift+alt+up",
+      "command": "editor.action.smartSelect.expand",
+      "when": "editorTextFocus"
+    },
+    {
+      "key": "shift+alt+down",
+      "command": "editor.action.smartSelect.shrink",
+      "when": "editorTextFocus"
+    },
+    {
+      "key": "ctrl+shift+up",
+      "command": "-editor.action.insertCursorAbove",
+      "when": "editorTextFocus"
     }
   ]
 ```
